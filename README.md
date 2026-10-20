@@ -220,4 +220,5 @@ Does the video stream now successfully initialize inside Zoom with the new debou
 ## 6: Convenience scripts
 
 place these scripts into ~/bin:
-
+[camera-start.sh](https://github.com/eric-jahn/ubuntu-26-04-camera-hack/blob/main/camera-start.sh)
+[camera-stop.sh](https://github.com/eric-jahn/ubuntu-26-04-camera-hack/blob/main/camera-stop.sh)
