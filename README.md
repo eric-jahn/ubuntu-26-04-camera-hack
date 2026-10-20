@@ -210,7 +210,7 @@ Restart your user service to load the updated loop logic:
 bash
 ```systemctl --user restart ipu6-bridge.service```
 
-## 5: How to Test It Now
+## 5: Test It Now
 Open Zoom or Chrome.
 The initial rapid app-probing phase will safely fire up the stream, but the script will ignore the immediate close triggers.
 Within 1–2 seconds, the video stream should fully populate in your app window.
@@ -220,5 +220,9 @@ Does the video stream now successfully initialize inside Zoom with the new debou
 ## 6: Convenience scripts
 
 place these scripts into ~/bin:
+
 [camera-start.sh](https://github.com/eric-jahn/ubuntu-26-04-camera-hack/blob/main/camera-start.sh)
+
 [camera-stop.sh](https://github.com/eric-jahn/ubuntu-26-04-camera-hack/blob/main/camera-stop.sh)
+
+Make sure they are executable with ```chmod + x```. Perhaps also add them to your local environment so they can run from anywhere without the path.
